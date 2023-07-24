@@ -1,0 +1,19 @@
+input {
+	font: inherit;
+	padding: 0.5rem;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 20rem;
+	max-width: 100%;
+}
+
+/* Стили для невалидных инпутов */
+input:invalid {
+	border-color: red;
+  }
+  
+  /* Стиль для заблокированной кнопки */
+  button:disabled {
+	cursor: not-allowed;
+  }
+  
